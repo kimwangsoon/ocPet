@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "@aspida/react-query": "^1.14.0",
+    "@mui/x-date-pickers": "^6.19.6",
     "@types/react-router-dom": "^5.3.3",
+    "dayjs": "^1.11.10",
     "i18next": "^23.10.0",
     "msw": "^2.2.2",
     "react": "^18.2.0",
