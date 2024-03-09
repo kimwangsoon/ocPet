@@ -1,4 +1,5 @@
 import {
+  Box,
   Checkbox,
   Table,
   TableBody,
@@ -10,6 +11,11 @@ import {
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import Button from "@components/ui/Button/Button";
+import MenuTabs from "@components/ui/Tabs/MenuTabs";
+import Header from "@components/ui/Header/Header";
+
+import "./index.scss";
 
 /*
 ocPetサイトのホーム画面
@@ -17,7 +23,13 @@ ocPetサイトのホーム画面
 
 const Home = () => {
   return (
-    <>
+    <Box className="mainBox">
+      <Header />
+      <MenuTabs />
+      <Box className="groupButton">
+        <Button name={"行追加"}></Button>
+        <Button name={"行削除"}></Button>
+      </Box>
       <Table>
         <TableHead>
           <TableRow>
@@ -46,7 +58,7 @@ const Home = () => {
           </TableRow>
         </TableBody>
       </Table>
-    </>
+    </Box>
   );
 };
 

@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "googleOcPetAgblumo";
+  src: url(./assets/fonts/Agbalumo/Agbalumo-Regular.ttf);
+}
+
+@font-face {
+  font-family: "googleOcPetSingleDay";
+  src: url(./assets/fonts/SingleDay/SingleDay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "googleOcPetNotoSansJP";
+  src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +26,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --font-googleOcPetAgblumo: "googleOcPetAgblumo";
+  --font-googleOcPetSingleDay: "googleOcPetSingleDay";
+  --font-googleOcPetSingleDay: "googleOcPetNotoSansJP";
 }
 
 a {

@@ -1,0 +1,27 @@
+.topBox {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2dfd3;
+}
+
+.catImage {
+  height: 120px;
+  width: 120px;
+}
+
+.dogImage {
+  height: 120px;
+  width: 120px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #d3a27f;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 30px;
+  margin-right: 30px;
+}
